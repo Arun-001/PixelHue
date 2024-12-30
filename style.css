@@ -1,0 +1,110 @@
+/* style.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+/* Button container to create a 3x5 grid */
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    /* 5 buttons per row */
+    grid-template-rows: repeat(3, 50px);
+    /* 3 rows */
+    gap: 10px;
+}
+
+/* Color button styles with common border color */
+.color-btn {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #333;
+    /* Common border color for all buttons */
+    cursor: pointer;
+    border-radius: 5px;
+    /* Slightly rounded corners */
+}
+
+/* Color picker styles */
+.color-picker {
+    margin-top: 20px;
+    /* Space between the buttons and the color picker */
+}
+
+/* Hide/Show button style */
+#toggle-button {
+    margin-top: 20px;
+    /* Space below the color picker */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.color-btn[data-color="red"] {
+    background-color: red;
+}
+
+.color-btn[data-color="green"] {
+    background-color: green;
+}
+
+.color-btn[data-color="blue"] {
+    background-color: blue;
+}
+
+.color-btn[data-color="yellow"] {
+    background-color: yellow;
+}
+
+.color-btn[data-color="purple"] {
+    background-color: purple;
+}
+
+.color-btn[data-color="orange"] {
+    background-color: orange;
+}
+
+.color-btn[data-color="pink"] {
+    background-color: pink;
+}
+
+.color-btn[data-color="brown"] {
+    background-color: brown;
+}
+
+.color-btn[data-color="cyan"] {
+    background-color: cyan;
+}
+
+.color-btn[data-color="lime"] {
+    background-color: lime;
+}
+
+.color-btn[data-color="magenta"] {
+    background-color: magenta;
+}
+
+.color-btn[data-color="indigo"] {
+    background-color: indigo;
+}
+
+.color-btn[data-color="violet"] {
+    background-color: violet;
+}
+
+.color-btn[data-color="gray"] {
+    background-color: gray;
+}
+
+.color-btn[data-color="teal"] {
+    background-color: teal;
+}
